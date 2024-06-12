@@ -86,6 +86,17 @@ An administrator account has the same permissions and capabilities as a regular 
 > - **Email:** user@gmail.com
 > - **Password:** 2pI9ldy9TbmbwIA
 
+# Setup 🛠️
+The program uses environment variables on both the backend and frontend for the **JWT token and HCaptcha key**.
+1. Create an `.env` file in the root directory of project with the following content:
+```
+JWT_SECRET_KEY=[your key]
+```
+2. Create an `.env` file in the root/frontend directory with the following content:
+```
+REACT_APP_HCAPTCHA_KEY=[your key]
+```
+
 # Credits and Acknowledgements 👏
 Sources of data and elements used in the project:
 **I do not have any rights to the following elements, and they were used for educational purposes**
